@@ -1,0 +1,10 @@
+{
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
+  "/packages/page": "app/packages/page.js",
+  "/retreat-builder/page": "app/retreat-builder/page.js",
+  "/packages/[slug]/page": "app/packages/[slug]/page.js",
+  "/api/submit-quiz/route": "app/api/submit-quiz/route.js",
+  "/results/page": "app/results/page.js",
+  "/contact/page": "app/contact/page.js"
+}
