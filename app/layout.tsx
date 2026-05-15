@@ -11,9 +11,13 @@ export const metadata: Metadata = {
     template: "%s | Northeast Executive Retreats",
   },
   icons: {
-    icon: [{ url: "/lighthouse_logo.svg", type: "image/svg+xml" }],
-    shortcut: "/lighthouse_logo.svg",
-    apple: "/lighthouse_logo.svg",
+    icon: [
+      { url: "/favicon-64.png", sizes: "64x64", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/lighthouse_logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon-64.png",
+    apple: "/favicon-192.png",
   },
   description:
     "Premium corporate retreats, executive off-sites, and team-building experiences across New England. Newport, Maine, Berkshires, Boston, and Vermont. From $1,500 per person.",
