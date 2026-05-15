@@ -81,7 +81,7 @@ export async function sendInquiryAutoReply(
           </a>
         </div>
         <p style="margin-top: 40px; font-size: 13px; color: #999; border-top: 1px solid #eee; padding-top: 20px;">
-          Northeast Executive Retreats · In Partnership with Blue Lobster Travel Co.
+          Northeast Executive Retreats · In Partnership with Premier New England Luxury Firms
         </p>
       </div>
     `,
@@ -169,7 +169,7 @@ export async function sendQuizAutoReply(
           </a>
         </div>
         <p style="margin-top: 40px; font-size: 13px; color: #999; border-top: 1px solid #eee; padding-top: 20px;">
-          Northeast Executive Retreats · In Partnership with Blue Lobster Travel Co.
+          Northeast Executive Retreats · In Partnership with Premier New England Luxury Firms
         </p>
       </div>
     `,

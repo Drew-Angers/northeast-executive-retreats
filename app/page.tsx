@@ -69,7 +69,7 @@ const differentiators = [
   },
   {
     title: "White-Glove Execution",
-    body: "Backed by Blue Lobster Travel Co., New England's premier destination management company. Relationships others don't have.",
+    body: "Backed by partnerships with premier New England luxury firms. Relationships with the region's finest venues, operators, and experience providers that others don't have.",
   },
   {
     title: "Corporate Intelligence",

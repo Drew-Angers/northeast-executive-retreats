@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About | Northeast Executive Retreats",
   description:
-    "Northeast Executive Retreats is a specialist B2B corporate retreat and executive off-site company serving New England, in partnership with Blue Lobster Travel Co.",
+    "Northeast Executive Retreats is a specialist B2B corporate retreat and executive off-site company serving New England, in partnership with premier New England luxury firms.",
 };
 
 export default function AboutPage() {
@@ -101,46 +101,30 @@ export default function AboutPage() {
             <div className="relative h-72 overflow-hidden">
               <Image
                 src="/destinations/newport.jpg"
-                alt="Blue Lobster Travel Co. partnership"
+                alt="New England luxury retreat partnership"
                 fill
                 className="object-cover"
               />
             </div>
             <div>
-              <p className="section-label mb-3">Our Execution Partner</p>
+              <p className="section-label mb-3">Our Network</p>
               <h2 className="font-serif text-3xl text-navy mb-6">
                 In Partnership with
                 <br />
-                <em>Blue Lobster Travel Co.</em>
+                <em>Premier New England Luxury Firms</em>
               </h2>
               <div className="divider-gold" />
               <p className="text-navy/70 font-sans leading-relaxed mt-6 mb-6">
                 Every Northeast Executive Retreats experience is executed in
-                partnership with{" "}
-                <a
-                  href="https://bluelobstertravelco.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gold hover:text-gold-dark transition-colors"
-                >
-                  Blue Lobster Travel Co.
-                </a>{" "}
-                — New England&apos;s premier destination management company.
+                partnership with the region&apos;s most respected luxury
+                hospitality and destination management firms across New England.
               </p>
               <p className="text-navy/70 font-sans leading-relaxed mb-6">
-                This partnership means your retreat is backed by deep regional
+                This network gives your retreat access to deep regional
                 relationships with the finest hotels, transportation operators,
                 private venues, and experience providers across the Northeast —
                 access that no individual corporate travel planner can match.
               </p>
-              <a
-                href="https://bluelobstertravelco.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-outline text-xs"
-              >
-                Visit Blue Lobster Travel
-              </a>
             </div>
           </div>
         </div>

@@ -113,15 +113,7 @@ export default function Footer() {
             rights reserved.
           </p>
           <p className="text-xs text-cream/30">
-            In Partnership with{" "}
-            <a
-              href="https://bluelobstertravelco.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gold/60 hover:text-gold transition-colors"
-            >
-              Blue Lobster Travel Co.
-            </a>
+            In Partnership with Premier New England Luxury Firms
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ export const destinations: Destination[] = [
     description:
       "Newport's Gilded Age mansions and private harbor set a stage few boardrooms can match. When your leadership team needs a setting that commands respect and inspires bold thinking, Newport delivers.",
     longDescription:
-      "Newport, Rhode Island is America's original luxury destination — a city where Vanderbilt-era grandeur meets working waterfront energy. For executive retreats and corporate off-sites, it offers an unmatched combination of historic gravitas, world-class dining, and private sailing access that no conference center can replicate. Our Newport retreats leverage Blue Lobster Travel's deep relationships with the region's finest estates, restaurants, and sailing operators to create corporate experiences your team will reference for years.",
+      "Newport, Rhode Island is America's original luxury destination — a city where Vanderbilt-era grandeur meets working waterfront energy. For executive retreats and corporate off-sites, it offers an unmatched combination of historic gravitas, world-class dining, and private sailing access that no conference center can replicate. Our Newport retreats leverage deep partnerships with the region's finest estates, restaurants, and sailing operators to create corporate experiences your team will reference for years.",
     heroImage: "/destinations/newport.jpg",
     galleryImages: [
       "/destinations/maine.jpg",
@@ -76,7 +76,7 @@ export const destinations: Destination[] = [
     priceFrom: 1500,
     seoTitle: "Executive Retreat Newport Rhode Island | Corporate Off-Site Newport",
     seoDescription:
-      "Luxury executive retreats and corporate off-sites in Newport, Rhode Island. Gilded Age mansions, private sailing, and world-class dining. From $1,500 per person. In partnership with Blue Lobster Travel.",
+      "Luxury executive retreats and corporate off-sites in Newport, Rhode Island. Gilded Age mansions, private sailing, and world-class dining. From $1,500 per person. In partnership with premier New England luxury firms.",
     keywords: [
       "corporate retreat Newport Rhode Island",
       "executive retreat Newport RI",
@@ -95,7 +95,7 @@ export const destinations: Destination[] = [
     description:
       "Maine's rugged coastline cuts through distraction. Private lobster bakes, sea kayaking, and genuine wilderness luxury create the conditions for your team's most honest conversations.",
     longDescription:
-      "Coastal Maine — from Kennebunkport to Bar Harbor — offers a rare combination of accessible luxury and genuine wilderness that no other New England destination can match. For corporate retreats focused on team bonding, culture reset, or leadership development, Maine's salt air and unhurried pace have a way of breaking down walls that conference rooms never could. Our Maine retreats tap into Blue Lobster Travel's exclusive access to private coastal estates, lighthouse venues, and premier lobster experience operators across the Maine coast.",
+      "Coastal Maine — from Kennebunkport to Bar Harbor — offers a rare combination of accessible luxury and genuine wilderness that no other New England destination can match. For corporate retreats focused on team bonding, culture reset, or leadership development, Maine's salt air and unhurried pace have a way of breaking down walls that conference rooms never could. Our Maine retreats tap into exclusive partnerships with premier private coastal estates, lighthouse venues, and lobster experience operators across the Maine coast.",
     heroImage: "/destinations/maine.jpg",
     galleryImages: [
       "/destinations/vermont.jpg",
@@ -300,7 +300,7 @@ export const destinations: Destination[] = [
     description:
       "Vermont's covered bridges, farm-to-table culture, and mountain air deliver something rarer than a great meeting: genuine restoration. Your team returns changed.",
     longDescription:
-      "Vermont offers New England's most authentically restorative setting for corporate retreats and executive off-sites. Whether your team needs a winter ski retreat, a fall foliage strategy session, or a summer mountain reset, Vermont's distinctive combination of local farm culture, outdoor access, and quaint New England character creates an environment where teams do their best thinking. Our Vermont retreats tap Blue Lobster Travel's relationships with the state's finest inns, private estates, and outdoor experience operators.",
+      "Vermont offers New England's most authentically restorative setting for corporate retreats and executive off-sites. Whether your team needs a winter ski retreat, a fall foliage strategy session, or a summer mountain reset, Vermont's distinctive combination of local farm culture, outdoor access, and quaint New England character creates an environment where teams do their best thinking. Our Vermont retreats tap deep partnerships with the state's finest inns, private estates, and outdoor experience operators.",
     heroImage: "/destinations/vermont-barn.jpg",
     galleryImages: [
       "/destinations/vermont.jpg",
@@ -349,7 +349,7 @@ export const destinations: Destination[] = [
     priceFrom: 1500,
     seoTitle: "Corporate Retreat Vermont | Executive Offsite Vermont New England",
     seoDescription:
-      "Luxury corporate retreats and executive off-sites in Vermont. Farm-to-table, mountain views, ski seasons. From $1,500 per person. In partnership with Blue Lobster Travel.",
+      "Luxury corporate retreats and executive off-sites in Vermont. Farm-to-table, mountain views, ski seasons. From $1,500 per person. In partnership with premier New England luxury firms.",
     keywords: [
       "corporate retreat Vermont",
       "executive retreat Vermont",
