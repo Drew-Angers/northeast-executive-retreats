@@ -17,8 +17,7 @@ const destinations = [
     tagline: "The Gilded Age Strategy Summit",
     description:
       "Historic mansions, private sailing, and world-class dining. Newport commands attention and sets the stage for transformative leadership moments.",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    image: "/destinations/newport.jpg",
     keywords: "executive retreat Newport Rhode Island",
   },
   {
@@ -28,8 +27,7 @@ const destinations = [
     tagline: "The Maritime Reset",
     description:
       "Private lobster bakes, sea kayaking, and rugged coastal luxury. Maine strips away the noise and returns your team to what matters.",
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    image: "/destinations/maine.jpg",
     keywords: "corporate retreat Maine",
   },
   {
@@ -39,8 +37,7 @@ const destinations = [
     tagline: "The Creative Offsite",
     description:
       "Rolling hills, world-class arts, and restorative wellness. The Berkshires spark creative breakthroughs for high-growth teams.",
-    image:
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
+    image: "/destinations/vermont.jpg",
     keywords: "corporate retreat Berkshires Massachusetts",
   },
   {
@@ -50,8 +47,7 @@ const destinations = [
     tagline: "The Historic Leadership Summit",
     description:
       "America&apos;s cradle of leadership. Private harbor events, Freedom Trail experiences, and iconic venues that make every agenda feel consequential.",
-    image:
-      "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=800&q=80",
+    image: "/destinations/boston.jpg",
     keywords: "executive retreat Boston Massachusetts",
   },
   {
@@ -61,8 +57,7 @@ const destinations = [
     tagline: "The Mountain Recharge",
     description:
       "Farm-to-table dinners, covered bridges, and mountain air. Vermont delivers genuine renewal for teams that need to reset and realign.",
-    image:
-      "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=800&q=80",
+    image: "/destinations/vermont.jpg",
     keywords: "corporate offsite Vermont",
   },
 ];

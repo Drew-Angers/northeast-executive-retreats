@@ -100,7 +100,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="relative h-72 overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+                src="/destinations/newport.jpg"
                 alt="Blue Lobster Travel Co. partnership"
                 fill
                 className="object-cover"

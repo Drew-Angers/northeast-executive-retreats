@@ -28,12 +28,11 @@ export const destinations: Destination[] = [
       "Newport's Gilded Age mansions and private harbor set a stage few boardrooms can match. When your leadership team needs a setting that commands respect and inspires bold thinking, Newport delivers.",
     longDescription:
       "Newport, Rhode Island is America's original luxury destination — a city where Vanderbilt-era grandeur meets working waterfront energy. For executive retreats and corporate off-sites, it offers an unmatched combination of historic gravitas, world-class dining, and private sailing access that no conference center can replicate. Our Newport retreats leverage Blue Lobster Travel's deep relationships with the region's finest estates, restaurants, and sailing operators to create corporate experiences your team will reference for years.",
-    heroImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80",
+    heroImage: "/destinations/newport.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
-      "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=800&q=80",
+      "/destinations/maine.jpg",
+      "/destinations/boston.jpg",
+      "/destinations/vermont.jpg",
     ],
     highlights: [
       "Private mansion venue buyouts for strategy sessions",
@@ -97,12 +96,11 @@ export const destinations: Destination[] = [
       "Maine's rugged coastline cuts through distraction. Private lobster bakes, sea kayaking, and genuine wilderness luxury create the conditions for your team's most honest conversations.",
     longDescription:
       "Coastal Maine — from Kennebunkport to Bar Harbor — offers a rare combination of accessible luxury and genuine wilderness that no other New England destination can match. For corporate retreats focused on team bonding, culture reset, or leadership development, Maine's salt air and unhurried pace have a way of breaking down walls that conference rooms never could. Our Maine retreats tap into Blue Lobster Travel's exclusive access to private coastal estates, lighthouse venues, and premier lobster experience operators across the Maine coast.",
-    heroImage:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80",
+    heroImage: "/destinations/maine.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-      "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=800&q=80",
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
+      "/destinations/vermont.jpg",
+      "/destinations/newport.jpg",
+      "/destinations/boston.jpg",
     ],
     highlights: [
       "Private coastal estate buyouts in Kennebunkport & Bar Harbor",
@@ -167,12 +165,11 @@ export const destinations: Destination[] = [
       "Rolling hills, world-class arts, and restorative wellness. The Berkshires create the mental spaciousness that high-growth teams need to think beyond the quarterly roadmap.",
     longDescription:
       "The Berkshires of western Massachusetts occupy a unique position in New England corporate retreat culture — they're close enough to Boston and New York to be logistically simple, yet far enough removed to feel genuinely transformative. For creative companies, marketing teams, and organizations navigating change, the Berkshires' combination of arts culture, wellness infrastructure, and natural beauty creates a distinctive backdrop for strategic off-sites. Our Berkshires retreats partner with the region's top historic inns, private estates, and Tanglewood-adjacent venues.",
-    heroImage:
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80",
+    heroImage: "/destinations/vermont.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=800&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=800&q=80",
+      "/destinations/maine.jpg",
+      "/destinations/newport.jpg",
+      "/destinations/boston.jpg",
     ],
     highlights: [
       "Private estate venues with mountain views",
@@ -235,12 +232,11 @@ export const destinations: Destination[] = [
       "Boston's layered history and world-class hospitality create an unrivaled backdrop for leadership summits, board meetings, and high-stakes corporate gatherings.",
     longDescription:
       "Boston is America's original leadership city — home to the country's first university, the birthplace of the American Revolution, and today a global hub for finance, technology, life sciences, and innovation. For executive retreats and corporate summits requiring gravitas, accessibility, and world-class amenities, Boston delivers on every count. Our Boston programs leverage private harbor events, Freedom Trail leadership experiences, and exclusive access to the city's premier private dining rooms and historic venues.",
-    heroImage:
-      "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=1600&q=80",
+    heroImage: "/destinations/boston.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "/destinations/newport.jpg",
+      "/destinations/maine.jpg",
+      "/destinations/vermont.jpg",
     ],
     highlights: [
       "Private harbor cruises on Boston Harbor",
@@ -305,12 +301,11 @@ export const destinations: Destination[] = [
       "Vermont's covered bridges, farm-to-table culture, and mountain air deliver something rarer than a great meeting: genuine restoration. Your team returns changed.",
     longDescription:
       "Vermont offers New England's most authentically restorative setting for corporate retreats and executive off-sites. Whether your team needs a winter ski retreat, a fall foliage strategy session, or a summer mountain reset, Vermont's distinctive combination of local farm culture, outdoor access, and quaint New England character creates an environment where teams do their best thinking. Our Vermont retreats tap Blue Lobster Travel's relationships with the state's finest inns, private estates, and outdoor experience operators.",
-    heroImage:
-      "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=1600&q=80",
+    heroImage: "/destinations/vermont.jpg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+      "/destinations/maine.jpg",
+      "/destinations/boston.jpg",
+      "/destinations/newport.jpg",
     ],
     highlights: [
       "Private inn buyouts with mountain and valley views",
