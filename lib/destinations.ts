@@ -301,11 +301,11 @@ export const destinations: Destination[] = [
       "Vermont's covered bridges, farm-to-table culture, and mountain air deliver something rarer than a great meeting: genuine restoration. Your team returns changed.",
     longDescription:
       "Vermont offers New England's most authentically restorative setting for corporate retreats and executive off-sites. Whether your team needs a winter ski retreat, a fall foliage strategy session, or a summer mountain reset, Vermont's distinctive combination of local farm culture, outdoor access, and quaint New England character creates an environment where teams do their best thinking. Our Vermont retreats tap Blue Lobster Travel's relationships with the state's finest inns, private estates, and outdoor experience operators.",
-    heroImage: "/destinations/vermont.jpg",
+    heroImage: "/destinations/vermont-barn.jpg",
     galleryImages: [
+      "/destinations/vermont.jpg",
       "/destinations/maine.jpg",
       "/destinations/boston.jpg",
-      "/destinations/newport.jpg",
     ],
     highlights: [
       "Private inn buyouts with mountain and valley views",

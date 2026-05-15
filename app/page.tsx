@@ -57,7 +57,7 @@ const destinations = [
     tagline: "The Mountain Recharge",
     description:
       "Farm-to-table dinners, covered bridges, and mountain air. Vermont delivers genuine renewal for teams that need to reset and realign.",
-    image: "/destinations/vermont.jpg",
+    image: "/destinations/vermont-barn.jpg",
     keywords: "corporate offsite Vermont",
   },
 ];
