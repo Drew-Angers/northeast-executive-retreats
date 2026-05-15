@@ -53,14 +53,18 @@ export default function ContactPage() {
     setError("");
     setSubmitting(true);
     try {
-      await fetch("/api/submit-inquiry", {
+      const res = await fetch("/api/submit-inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || "Something went wrong.");
+      }
       setSubmitted(true);
-    } catch {
-      setError("Something went wrong. Please email us directly.");
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Something went wrong. Please email drewangers@gmail.com directly.");
       setSubmitting(false);
     }
   };

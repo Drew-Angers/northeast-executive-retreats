@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase";
 import {
   sendInquiryNotification,
   sendInquiryAutoReply,
@@ -30,55 +29,27 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Save to Supabase
-    const { error: dbError } = await supabaseAdmin
-      .from("inquiries")
-      .insert([
-        {
-          first_name: firstName,
-          last_name: lastName || null,
-          email,
-          phone: phone || null,
-          company: company || null,
-          title: title || null,
-          destination: destination || null,
-          group_size: groupSize || null,
-          budget: budget || null,
-          timing: timing || null,
-          goals: goals || null,
-          source: "contact_form",
-          created_at: new Date().toISOString(),
-        },
-      ]);
+    await sendInquiryNotification({
+      firstName,
+      lastName: lastName || "",
+      email,
+      phone: phone || "",
+      company: company || "",
+      title: title || "",
+      destination: destination || "",
+      groupSize: groupSize || "",
+      budget: budget || "",
+      timing: timing || "",
+      goals: goals || "",
+    });
 
-    if (dbError) {
-      console.error("Supabase error:", dbError);
-      // Don't fail the request — still send emails
-    }
-
-    // Send notifications
-    await Promise.allSettled([
-      sendInquiryNotification({
-        firstName,
-        lastName: lastName || "",
-        email,
-        phone: phone || "",
-        company: company || "",
-        title: title || "",
-        destination: destination || "",
-        groupSize: groupSize || "",
-        budget: budget || "",
-        timing: timing || "",
-        goals: goals || "",
-      }),
-      sendInquiryAutoReply(email, firstName),
-    ]);
+    await sendInquiryAutoReply(email, firstName);
 
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Inquiry submission error:", err);
     return NextResponse.json(
-      { error: "Internal server error" },
+      { error: "Failed to send inquiry. Please email drewangers@gmail.com directly." },
       { status: 500 }
     );
   }

@@ -1,9 +1,15 @@
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
-const FROM = process.env.FROM_EMAIL || "hello@northeastexecutiveretreats.com";
-const NOTIFY_1 = process.env.NOTIFY_EMAIL_1 || "drewangers@gmail.com";
+const FROM = process.env.GMAIL_USER || "drewangers@gmail.com";
+const NOTIFY_1 = "drewangers@gmail.com";
 const NOTIFY_2 = process.env.NOTIFY_EMAIL_2 || "carolinequinn518@gmail.com";
 
 // ── Notify team of new inquiry ──
@@ -38,7 +44,7 @@ export async function sendInquiryNotification(data: Record<string, string>) {
     </div>
   `;
 
-  await resend.emails.send({
+  await transporter.sendMail({
     from: FROM,
     to: [NOTIFY_1, NOTIFY_2],
     subject,
@@ -51,7 +57,7 @@ export async function sendInquiryAutoReply(
   toEmail: string,
   firstName: string
 ) {
-  await resend.emails.send({
+  await transporter.sendMail({
     from: FROM,
     to: toEmail,
     subject: `We received your retreat inquiry, ${firstName}`,
@@ -110,7 +116,7 @@ export async function sendQuizLeadNotification(data: Record<string, string>) {
     </div>
   `;
 
-  await resend.emails.send({
+  await transporter.sendMail({
     from: FROM,
     to: [NOTIFY_1, NOTIFY_2],
     subject,
@@ -133,7 +139,7 @@ export async function sendQuizAutoReply(
   };
   const destName = destNames[destination] || destination;
 
-  await resend.emails.send({
+  await transporter.sendMail({
     from: FROM,
     to: toEmail,
     subject: `Your ${destName} Retreat Match — Northeast Executive Retreats`,
@@ -152,7 +158,7 @@ export async function sendQuizAutoReply(
           Ready to take the next step? Click below to request a custom proposal
           and we&apos;ll come back to you within 24 hours.
         </p>
-        <div style="margin-top: 28px; display: flex; gap: 12px;">
+        <div style="margin-top: 28px;">
           <a href="https://northeastexecutiveretreats.com/contact"
              style="display: inline-block; background: #C9A96E; color: #0F2340; padding: 12px 28px; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; margin-right: 12px;">
             Request a Proposal
